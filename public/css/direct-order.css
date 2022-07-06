@@ -1,0 +1,186 @@
+:root {
+    --color-dark-matter-main: #280031;
+    --color-dark-matter-1: #32103a;
+    --color-dark-matter-2: #3c1f42;
+    --color-dark-matter-3: #472f4c;
+    --color-smoke-main: #eae8f7;
+    --color-smoke-1: #b9aec5;
+    --color-smoke-2: #897493;
+    --color-smoke-3: #583a63;
+    --color-smoke-4: #dfdaff;
+    --color-smoke-5: #cac5e8;
+    --color-portal-main: #6242fc;
+    --color-portal-1: #7f60fe;
+    --color-portal-2: #9a7eff;
+    --color-portal-3: #b9a5fe;
+    --color-portal-4: #4e31da;
+    --color-portal-5: #4129b5;
+    --color-burst-main: #e8f953;
+    --color-burst-1: #eaf771;
+    --color-burst-2: #f0fa9c;
+    --color-burst-3: #f7fcc4;
+    --color-burst-4: #d9f200;
+    --color-burst-5: #c0d603;
+    --color-arcadia-main: #ff7f98;
+    --color-arcadia-1: #f84771;
+    --color-arcadia-2: #ffb3c2;
+    --color-arcadia-3: #ffe1e6;
+    --color-primary: #fff;
+    --color-secondary: #333;
+    --color-shennx-black: #000000;
+    --border-color: transparent;
+    --font-family-primary: "Poppins", sans-serif;
+    --loader-backdrop: rgba(0,0,0,0.9);
+    --loader-backdrop-dark: rgba(0,0,0,0.9);
+    --loader-backdrop-light: hsla(0,0%,100%,0.65);
+    --box-shadow-primary: rgba(0,0,0,0.15);
+}
+
+.radio-denom {
+    color: white;
+    display: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.radio-denom+label {
+    text-align: center;
+    color: var(--color-secondary);
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgb(157, 157, 157);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 3rem;
+    width: 49%;
+    font-size: 12px;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+}
+
+.radio-denom:checked+label {
+    text-align: center;
+    background-image: none;
+    color: var(--ShennColor);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 49%;
+    font-size: 12px;
+    border-color: var(--ShennColor);
+    border: 2.25px solid var(--ShennColor);
+}
+
+@media (min-width: 576px) {
+    .radio-denom:checked+label {
+        width: 32%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .radio-denom+label {
+        width: 32%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .radio-denom:checked+label {
+        width: 32%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .radio-denom+label {
+        width: 32%;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .radio-denom:checked+label {
+        width: 32%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .radio-denom+label {
+        width: 32%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .radio-denom:checked+label {
+        width: 24%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .radio-denom+label {
+        width: 24%;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+.radio-payment {
+    color: white;
+    display: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.radio-payment:checked+label {
+    background-image: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 12px;
+    border-color: var(--ShennColor);
+    border: 2.25px solid var(--ShennColor);
+}
+
+.radio-payment+label {
+    color: var(--color-shennx-black);
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-shennx);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.safadjust {
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: right;
+}
+
+.font-price {
+    color: var(--color-smoke-1);
+}
+
+.tagline-card {
+    background-color: var(--color-smoke-main);
+    color: var(--color-dark-matter-main);
+    font-size: .75rem;
+    font-family: Lato-Bold,sans-serif;
+    padding: 5px 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: block;
+    width: 100%;
+}
+
+.tagline-card p {
+    margin: 0;
+}
