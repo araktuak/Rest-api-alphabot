@@ -1,0 +1,474 @@
+.fw-bold {
+    font-weight: bold;
+}
+
+.badges .badge {
+  margin: 0 8px 10px 0;
+}
+
+.badge {
+  border: 2px solid transparent;
+  vertical-align: middle;
+  padding: 7px 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-radius: 30px;
+  font-size: 12px solid;
+}
+
+.badge.badge-warning {
+  color: #f7b84b;
+}
+
+.badge.badge-primary {
+  background-color: #007bff;
+}
+
+.badge.badge-secondary {
+  background-color: #6c757d;
+}
+
+.badge.badge-success {
+  background-color: #1abc9c;
+}
+
+.badge.badge-info {
+  background-color: #4fc6e1;
+}
+
+.badge.badge-danger {
+  background-color: #f1556c;
+}
+
+.badge.badge-light {
+  background-color: #f7f8f9;
+  color: #191d21;
+}
+
+.badge.badge-white {
+  background-color: #fff;
+  color: #191d21;
+}
+
+.badge.badge-dark {
+  background-color: #323a46;
+}
+
+.badge.badge-outline-warning {
+  background-color: transparent;
+  border-color: #f7b84b;
+  color: #f7b84b;
+  font-weight: 900;
+}
+
+.badge.badge-outline-primary {
+  background-color: transparent;
+  border-color: #007bff;
+  color: #007bff;
+  font-weight: 900;
+}
+
+.badge.badge-outline-secondary {
+  background-color: transparent;
+  border-color: #6c757d;
+  color: #6c757d;
+  font-weight: 900;
+}
+
+.badge.badge-outline-success {
+  background-color: transparent;
+  border-color: #1abc9c;
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.badge.badge-outline-info {
+  background-color: transparent;
+  border-color: #4fc6e1;
+  color: #4fc6e1;
+  font-weight: 900;
+}
+
+.badge.badge-outline-danger {
+  background-color: transparent;
+  border-color: #f1556c;
+  color: #f1556c;
+  font-weight: 900;
+}
+
+.badge.badge-outline-light {
+  background-color: transparent;
+  border-color: #f7f8f9;
+  color: #f7f8f9;
+  font-weight: 900;
+}
+
+.badge.badge-outline-white {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  font-weight: 900;
+}
+
+.badge.badge-outline-dark {
+  background-color: transparent;
+  border-color: #323a46;
+  color: #323a46;
+  font-weight: 900;
+}
+
+/* Start: Tokopedia */
+._1ekcz {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+._1ekcz,
+._1gnKW .WX4qm {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+._24EoF {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  padding: 10px 0 5px;
+  border-bottom: 2px solid transparent;
+  vertical-align: top;
+  -webkit-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+
+._24EoF img {
+  width: 100%;
+  height: 35px;
+  margin: auto;
+  margin-bottom: 8px;
+  vertical-align: middle;
+}
+
+._24EoF {
+  text-align: center;
+}
+
+._24EoF span {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  display: block;
+  margin-top: 8px;
+  line-height: 1.35em;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+._3xM0V {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  vertical-align: center;
+  -webkit-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+  background: url("data:image/svg+xml;charset=utf-8;base64,IDxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNzIgOTAnPjxnIGZpbGw9JyNmMGVmZWYnPjxjaXJjbGUgY3g9JzM2JyBjeT0nMzEuNScgcj0nMzAuNicvPjxwYXRoIGQ9J00wIDcyLjFoNzJ2MTYuMkgweicvPjwvZz48L3N2Zz4=");
+  background-size: 100% 5.5rem;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  height: 110px;
+}
+
+@media only screen and (max-width: 768px) {
+  ._1ekcz,
+  ._1gnKW .WX4qm {
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  ._1ekcz {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /*max-width: 400px*/
+  }
+
+  ._3xM0V {
+    width: 25%;
+  }
+}
+/* Stop: Tokopedia */
+
+/* Start: ShennBoku */
+.text-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.toll-free-box i {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  font-size: 4rem;
+  opacity: 0.4;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: var(--ShennColor);
+  text-decoration: none;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: var(--ShennColor);
+  border-color: var(--ShennColor);
+  background-color: var(--ShennColor);
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+  border-color: var(--ShennColor);
+  background-color: var(--ShennColor);
+}
+
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.custom-radio .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.custom-switch .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: var(--ShennColor);
+}
+
+.navigation-menu > li > ul > li.has-submenu:active > a, .navigation-menu > li > ul > li.has-submenu:hover > a {
+  color: var(--ShennColor);
+}
+
+.navigation-menu > li .submenu li a:hover {
+  color: var(--ShennSemiColor);
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.progress-bar {
+  background-color: var(--ShennColor);
+}
+
+.list-group-item.active {
+  background-color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.bg-navbar {
+  background-color: var(--ShennColor) !important;
+}
+
+.text-navbar {
+  color: var(--ShennColor) !important;
+}
+
+a.text-navbar:hover {
+  color: var(--ShennSemiColor);
+}
+
+.btn-outline-navcolor {
+  color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.btn-outline-navcolor:hover {
+  color: #fff;
+  background-color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.btn-outline-navcolor.disabled,.btn-outline-navcolor:disabled {
+  color: var(--ShennColor);
+  background-color: transparent;
+}
+
+.btn-outline-navcolor:not(:disabled):not(.disabled).active,.btn-outline-navcolor:not(:disabled):not(.disabled):active,.show>.btn-outline-navcolor.dropdown-toggle {
+  color: #fff;
+  background-color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.megamenu-list li a:hover {
+  color: var(--ShennColor);
+}
+
+.nav-bordered a.active {
+  border-bottom: 2px solid var(--ShennColor)!important;
+}
+
+#topnav {
+  background: var(--ShennColor);
+}
+
+#topnav .has-submenu.active .submenu li.active > a {
+  color: var(--ShennColor);
+}
+
+#topnav .navigation-menu > li .submenu li a:hover {
+  color: var(--ShennSemiColor);
+}
+
+#topnav .navigation-menu > li.has-submenu.open > a {
+  color: var(--ShennColor);
+}
+
+#topnav .has-submenu.active .submenu li.active > a {
+  color: var(--ShennColor);
+}
+
+.menubar-light #topnav .has-submenu.active > a {
+  color: var(--ShennColor);
+}
+
+.menubar-light #topnav .has-submenu.active .submenu li.active > a {
+  color: var(--ShennColor);
+}
+
+.border-left-dotted {
+  border-left: 1px dashed rgba(0, 0, 0, 0.1) !important;
+  border-color: var(--ShennColor) !important;
+}
+
+.btn-navcolor {
+  text-align: center !important;
+  white-space: normal !important;
+  background-color: var(--ShennColor);
+}
+
+.btn-navcolor:hover {
+  color: white;
+  text-align: center !important;
+  white-space: normal !important;
+  background-color: var(--ShennSemiColor);
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+table.dataTable tbody td.focus, table.dataTable tbody th.focus {
+  outline: 2px solid var(--ShennColor) !important;
+  color: var(--ShennColor);
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+  background-color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  background-color: var(--ShennColor);
+  border-color: var(--ShennColor);
+}
+
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.custom-radio .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.custom-switch .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: var(--ShennSemiColor);
+}
+
+.badge.badge-outline-navbar {
+    background-color: transparent;
+    border-color: var(--ShennColor);
+    color: var(--ShennColor);
+    font-weight: 900;
+}
+
+.page-item.active .page-link {
+    background-color: var(--ShennColor);
+    border-color: var(--ShennColor);
+}
+
+.sc-axis {
+  background-image: var(--IconAxis);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 98% 50%;
+}
+
+.sc-indosat {
+  background-image: var(--IconIndosat);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 98% 50%;
+}
+
+.sc-smartfren {
+  background-image: var(--IconSmartfren);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 98% 50%;
+}
+
+.sc-telkomsel {
+  background-image: var(--IconTelkomsel);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 98% 50%;
+}
+
+.sc-three {
+  background-image: var(--IconThree);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 98% 50%;
+}
+
+.sc-axiata {
+  background-image: var(--IconAxiata);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto 26px;
+  background-position: 98% 50%;
+}
+/* Stop: ShennBoku */
