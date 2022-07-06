@@ -7,6 +7,10 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/views/home.html')
 })
 
+router.get('/id/mobile-legends', (req, res) => {
+    res.sendFile(__path + '/views/ml.html')
+})
+
 router.get('/api', (req, res) => {
     res.sendFile(__path + '/views/index.html')
 })
